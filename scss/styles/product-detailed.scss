@@ -119,6 +119,26 @@
     border: 2px solid $green-design;
 }
 
+.desktop-gallery-thumbnails {
+    /*@media only screen and (max-width: 1280px) {
+    padding: 0;
+    }*/
+
+    @media only screen and (max-width: 768px) {
+        display: none;
+    }
+}
+
+.mobile-gallery-thumbnails {
+    /*@media only screen and (max-width: 1280px) {
+    padding: 0;
+    }*/
+
+    @media only screen and (max-width: 768px) {
+        display: inline-block;
+    }
+}
+
 .product-details_wrapper {
     text-align: left;
     padding: 33px 55px 0 58px;
