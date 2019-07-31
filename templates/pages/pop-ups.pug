@@ -1,0 +1,35 @@
+div.black-background.cookies_wrapper
+    div.container.cookies_container
+        div.row.cookies_row.cookies-window_wrapper
+            div.cookies_window
+                div.cookies-content_wrapper
+                    span.cookies_header This website uses cookies
+                    span.cookies_text OSF uses its own and third-party cookies for statistical purposes, to know your preferences, for website performance and interaction with social media offering publicity tailored to your interests. If you continue browsing, we consider that you accept its use. You can expand this information consulting our 
+                        a.cookies_link(href="./404-page.html") Cookies Policy Page.
+                div.cookies-button_wrapper
+                    button.add-to-cart-button.accept-cookies_button(id="" title="accept") 
+                        span.add-to-cart-button_text accept
+            span.close_button +
+        div.cookies_background.cookies_pop-up
+div.black-background.login_wrapper 
+    div.login-pop-up_container_wrapper
+        div.login_wrapper_space
+        div.container.login-pop-up_container
+            div.login-pop-up_wrapper
+                form.login-form(action="")
+                    span.login-form_header Sign in
+                    div.input_wrapper
+                        label.input_label(for="user-email") Email
+                        input.input_field(type="email" name="user-email" required)
+                    div.input_wrapper
+                        label.input_label-narrow(for="user-password") Password
+                        span.additional_text-narrow
+                            a.additional_link(href="./404-page.html") forgot password
+                        input.input_field.input_field_password(type="password" name="user-password" pattern=".{6,}" required)
+                        i.far.fa-eye-slash.show-pass_icon
+                        i.far.fa-eye.hide-pass_icon
+                    div.login-form_submit_button_wrapper
+                        button.login-form_submit_button(type="submit" id="login-submit")
+                            span.login-form_submit_text LOGIN
+                    span.additional_text.additional_text-new-alignment
+                        a.additional_link(href="./404-page.html") I don’t have an account

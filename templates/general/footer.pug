@@ -1,0 +1,80 @@
+mixin footer_nav(text, link)
+  li.footer-nav__item
+    a.footer-nav__link(href=link)=text
+
+div.footer
+    div.page-container.container
+        div.row
+            div.footer-info.col-lg-2
+                p.footer__text &copy; Copyright 2019.
+                    br 
+                    |All Rights Reserved.
+                p.footer__header Contact
+                span.contact-open-dropdown_button
+                div.footer-nav
+                    p.footer__text Headquarters:
+                        br
+                        |5600, Blvd. des Galeries, Bur 530 
+                        br
+                        | Québec, Québec G2K 2H6 
+                    p.footer__text.top-space
+                        a.footer-info__link(href="mailto:contact@osf-global.com") contact@osf-global.com
+                    p.footer__text.top-space 
+                        a.footer-info__link(href="tel:+1 (888) 548-4344") +1 (888) 548-4344
+            div.footer-list.wide-content.col-lg-6
+                p.footer__header Categoriest
+                span.open-dropdown_button
+                ul.footer-nav.multi-cols
+                    +footer_nav('Alcohol','./404-page.html')
+                    +footer_nav('Art','./404-page.html')
+                    +footer_nav('Books','./404-page.html')
+                    +footer_nav('Drink','./404-page.html')
+                    +footer_nav('Electronics','./404-page.html')
+                    +footer_nav('Home','./404-page.html')
+                    +footer_nav('Jewelry','./404-page.html')
+                    +footer_nav('Kids & Baby','./404-page.html')
+                    +footer_nav("Men's Fashion",'./404-page.html')
+                    +footer_nav('Mobile','./404-page.html')
+                    +footer_nav('Motorcycles','./404-page.html')
+                    +footer_nav('Movies','./404-page.html')
+                    +footer_nav('Music','./404-page.html')
+                    +footer_nav('Sport','./404-page.html')
+                    +footer_nav('Toys','./404-page.html')
+                    +footer_nav('Travel','./404-page.html')
+                    +footer_nav("Women's Fashion",'./404-page.html')
+            div.footer-list.narrow-content.col-lg-2
+                p.footer__header About
+                span.open-dropdown_button
+                ul.footer-nav        
+                    +footer_nav('About us','./counter-page.html')
+                    +footer_nav('Delivery','./404-page.html')
+                    +footer_nav('Testimonials','./404-page.html')
+                    +footer_nav('Contact','./404-page.html') 
+            div.footer-social-media.col-lg-2
+                a.footer-social-media_container(href="https://www.pinterest.com/")
+                    include social-media-pinterest.pug
+                a.footer-social-media_container(href="https://twitter.com/")
+                    include social-media-twitter.pug
+                a.footer-social-media_container(href="https://plus.google.com/")
+                    include social-media-google.pug    
+                a.footer-social-media_container(href="https://www.facebook.com/")
+                    include social-media-facebook.pug
+    div.mobile_account-nav_container
+        ul.footer-account-nav
+            li.footer-account-nav__item(id="search")
+                a.footer-account-nav__link(href="#")
+                    i.footer-account-nav__icon.fas.fa-search
+            li.footer-account-nav__item(id="user")
+                a.footer-account-nav__link(href="#")
+                    i.footer-account-nav__icon.far.fa-user
+            li.footer-account-nav__item(id="wishlist")
+                a.footer-account-nav__link(href="#")
+                    i.footer-account-nav__icon.far.fa-heart
+                    span.account-nav__counter 9
+            li.footer-account-nav__item(id="minicart")
+                a.footer-account-nav__link(href="#")
+                    i.footer-account-nav__icon.fa.fa-shopping-bag
+                    span.account-nav__counter 15
+
+            
+                

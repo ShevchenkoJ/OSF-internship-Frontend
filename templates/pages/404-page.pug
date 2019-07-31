@@ -1,0 +1,24 @@
+div.page-background.page-background-padding    
+    div.container
+        ul.breadcrumb.breadcrumb__list
+            li.breadcrumb__item
+                a.breadcrumb__link(href="./index.html") Home
+            li.breadcrumb__item
+                a.breadcrumb__link.last-breadcrumb__link 404
+        div.horizontal-line
+            span.horizontal-line__text 404
+        div.not-found_content
+            div.row
+                div.slogan_block.col-lg-5
+                    span.slogan__text Oops!
+                div.not-found_text-block.col-lg-7
+                    p.header_h3 Sorry, this page could not be found!
+                    p.not-found__text Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                    p.not-found__text Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+                    p.not-found__text.additional-margin
+                        a.not-found__link(href="./index.html") Go back to Homepage
+                    label.header_h3.not-found_search__label(for="q") Search our site
+                    form.not-found_search(id="not-found_search" role="search" action="/search" method="get" name="notFoundSearch")
+                        input.not-found_search__input(type="text" id="q" name="q" maxlength="150" value placeholder="Search" autocomplete="off")
+                        button.not-found_search__button(type="submit" value="OK")
+                            i.not-found_search__icon.fas.fa-search

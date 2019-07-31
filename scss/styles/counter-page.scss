@@ -1,0 +1,56 @@
+.counter_container {
+    background-color: $white;
+    border-radius: 7px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.counter_header {
+    font-family: 'Lato-ExtraBold';
+    font-size: 30px;
+    margin: 80px auto 20px auto;
+}
+
+.counter_text {
+    width: 50%;
+    max-width: 500px;
+    margin: 0 auto;   
+}
+
+.counter_item {
+    display: inline-block;
+    margin: 27px;
+    position: relative;
+    width: 115px;
+    height: 150px;
+}
+
+.counter_chart {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 2px solid #b6bcc1;
+    background-color: $green-design;
+    width: 113px;
+    height: 113px;
+    border-radius: 50%;
+    z-index: 20;
+}
+
+.counter_digits {
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    background-color: $white;
+    width: 107px;
+    height: 107px;
+    border-radius: 50%;
+    z-index: 30;
+}
+
+.counter_name {
+    position: absolute;
+    bottom: 0;
+    left: 32px;
+}

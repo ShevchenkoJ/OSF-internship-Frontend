@@ -1,0 +1,105 @@
+mixin drop-down_items(text, link)
+  li.drop-down__item
+    a.drop-down__link(href=link)=text
+
+include ../pages/pop-ups.pug
+
+div.header
+    div.page-container.container
+        a.logo-group(href="./index.html")
+                img.logo-pic(src="../OSF-internship-Frontend/images/OSF-logo.png")
+                span.logo-text--up o s f
+                span.logo-text--down academy
+        div.nav-wrapper
+            ul.header-nav
+                li.header-nav__item
+                    a.header-nav__link.drop-down__hover(href="#") services
+                li.header-nav__item
+                    a.header-nav__link(href="#") company
+                li.header-nav__item
+                    a.header-nav__link(href="#") library
+                li.header-nav__item
+                    a.header-nav__link(href="#") contact us
+            ul.adjustments-list
+                li.adjustments-list__item
+                    a.adjustments-list__link.lang_hover(href="#") en
+                    div.drop-down-lang
+                        ul.drop-down-lang__list
+                            li.drop-down-lang__item
+                                a.drop-down-lang__link UA
+                            li.drop-down-lang__item
+                                a.drop-down-lang__link DEU
+                li.adjustments-list__item 
+                    a.adjustments-list__link.currency_hover(href="#") us
+                    div.drop-down-currency
+                        ul.drop-down-currency__list
+                            li.drop-down-currency__item
+                                a.drop-down-currency__link UAH
+                            li.drop-down-currency__item
+                                a.drop-down-currency__link EUR                    
+            ul.account-nav
+                li.account-nav__item(id="search")
+                    a.account-nav__link(href="#")
+                        i.account-nav__icon.fas.fa-search
+                li.account-nav__item(id="user")
+                    a.account-nav__link(href="#")
+                        i.account-nav__icon.far.fa-user
+                li.account-nav__item(id="wishlist")
+                    a.account-nav__link(href="#")
+                        i.account-nav__icon.far.fa-heart
+                        span.account-nav__counter 9
+                li.account-nav__item(id="minicart")
+                    a.account-nav__link(href="#")
+                        i.account-nav__icon.fa.fa-shopping-bag
+                        span.account-nav__counter 15
+    div.drop-down_container
+        div.container
+            div.row.row-modified
+                div.col-lg-7
+                    p.header__header PRODUCT CATEGORIES
+                    ul.drop-down__list.multi-cols
+                        +drop-down_items('Accessories','./404-page.html')
+                        +drop-down_items('Alcohol','./404-page.html')
+                        +drop-down_items('Art','./404-page.html')
+                        +drop-down_items('Books','./404-page.html')
+                        +drop-down_items('Drink','./404-page.html')
+                        +drop-down_items('Electronics','./404-page.html')
+                        +drop-down_items('Flowers & Plants','./404-page.html')
+                        +drop-down_items('Food','./404-page.html')
+                        +drop-down_items('Gadgets','./404-page.html')
+                        +drop-down_items('Garden','./404-page.html')
+                        +drop-down_items('Grocery','./404-page.html')
+                        +drop-down_items('Home','./404-page.html')
+                        +drop-down_items('Jewelry','./404-page.html')
+                        +drop-down_items('Kids & Baby','./404-page.html')
+                        +drop-down_items("Men's Fashion",'./404-page.html')
+                        +drop-down_items('Mobile','./404-page.html')
+                        +drop-down_items('Motorcycles','./404-page.html')
+                        +drop-down_items('Movies','./404-page.html')
+                        +drop-down_items('Music','./404-page.html')
+                        +drop-down_items('Office','./404-page.html')
+                        +drop-down_items('Pets','./404-page.html')
+                        +drop-down_items('Romantic','./404-page.html')
+                        +drop-down_items('Sport','./404-page.html')
+                        +drop-down_items('Toys','./404-page.html')
+                div.col-lg-2
+                    p.header__header SALE
+                    ul.drop-down__list     
+                        +drop-down_items('Accessories','./404-page.html')
+                        +drop-down_items('Alcohol','./404-page.html')
+                        +drop-down_items('Art','./404-page.html')
+                        +drop-down_items('Books','./404-page.html')
+                        +drop-down_items('Drink','./404-page.html')
+                        +drop-down_items('Electronics','./404-page.html')
+                        +drop-down_items('Flowers & Plants','./404-page.html')
+                        +drop-down_items('Food','./404-page.html')
+                div.col-lg-3
+                    img.drop-down__img(src="images/drop-down-img.png" alt="")
+    
+
+
+
+
+
+
+                    

@@ -1,0 +1,142 @@
+div.page-background
+    div.container.product-detailed_container
+        ul.breadcrumb.breadcrumb__list
+            li.breadcrumb__item
+                a.breadcrumb__link(href="./index.html") Home
+            li.breadcrumb__item
+                a.breadcrumb__link(href="./category-landing.html") OSF Theme
+            li.breadcrumb__item
+                a.breadcrumb__link.last-breadcrumb__link Ruffle Front V-Neck Cardigan
+        div.horizontal-line
+            span.horizontal-line__text Ruffle Front V-Neck Cardigan
+        div.row.gallery_row
+            div.col-lg-7.gallery_col
+                div.easyzoom.easyzoom--overlay.easyzoom--with-thumbnails.gallery_wrapper
+                    a.gallery_link(href="images/zoom/shp/black-zoom-face.jpg")
+                        img.gallery_image(src="images/zoom/shp/black-standard-face.jpg" alt="")
+                ul.thumbnails.gallery-previews_wrapper
+                    li.gallery-preview_item
+                        a.gallery-preview_link(href="images/zoom/shp/black-zoom-face.jpg" data-standard="images/zoom/shp/black-standard-face.jpg")
+                            img.gallery-preview_image.active_thumb(src="images/zoom/shp/black-small-face.jpg" alt="")
+                    li.gallery-preview_item
+                        a.gallery-preview_link(href="images/zoom/shp/black-zoom-back.jpg" data-standard="images/zoom/shp/black-standard-back.jpg")
+                            img.gallery-preview_image(src="images/zoom/shp/black-small-back.jpg" alt="")
+                    li.gallery-preview_item
+                        a.gallery-preview_link(href="images/zoom/shp/blue-zoom-face.jpg" data-standard="images/zoom/shp/blue-standard-face.jpg")
+                            img.gallery-preview_image(src="images/zoom/shp/blue-small-face.jpg" alt="")
+                    li.gallery-preview_item
+                        a.gallery-preview_link(href="images/zoom/shp/blue-zoom-back.jpg" data-standard="images/zoom/shp/blue-standard-back.jpg")
+                            img.gallery-preview_image(src="images/zoom/shp/blue-small-back.jpg" alt="")          
+            div.col-lg-5.product-details_wrapper
+                form.item-features_form
+                    span.price_header $299.99
+                    div.filter__item
+                        label.filter_label(for="color-select")
+                            select.filter_select(id="color-select")
+                                option.filter_option(value="grey" data-color="#716c68")
+                                    span.color-1 
+                                    span Dark Gray
+                                option.filter_option(value="blue" data-color="blue")
+                                    span.color-2 
+                                    span Light Blue
+                    div.buttons_container
+                        div.products-counter
+                            span.counter_subtract-product -
+                            input.products-counter_text(type="text" name="quantity" value="1")
+                            span.counter_add-product +
+                        button.add-to-cart-button.mobile-button_add-to-cart(id="add-to-cart" title="load-more") 
+                            span.add-to-cart-button_text ADD TO CART
+                div.limited-text_wrapper
+                    input.read-more-state(type="checkbox" id="post-1")
+                    p.limited_text.read-more-wrap Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore Beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
+                        span.added_text.read-more-target sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+                    label.read-more-trigger(for="post-1")
+                div.share_block
+                    span.share-text Share
+                    div.footer-social-media
+                        a.footer-social-media_container(href="https://www.facebook.com/")
+                            include social-media-facebook.pug
+                        a.footer-social-media_container(href="https://plus.google.com/")
+                            include social-media-google.pug 
+                        a.footer-social-media_container(href="https://twitter.com/")
+                            include social-media-twitter.pug  
+                        a.footer-social-media_container(href="https://www.pinterest.com/")
+                            include social-media-pinterest.pug
+        div.row.tabs_row
+            div.col-lg-4.tab_column(data-content=".column-1_content")
+                div.tab-wrapper.tab-wrapper_active 
+                    span.tab-header Description                                     
+            div.col-lg-4.tab_column(data-content=".column-2_content")
+                div.tab-wrapper
+                    span.tab-header Additional Information
+            div.col-lg-4.tab_column(data-content=".column-3_content")
+                div.tab-wrapper
+                    span.tab-header Reviews (3)
+        div.row.tab-text_row.column-1_content.tab-text_row_active
+            div.col-lg-6.tab-text_column.tab-text_column_left
+                p.tab-text Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+                p.tab-text Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. 
+                //Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,
+            div.col-lg-6.tab-text_column.tab-text_column_right
+                p.tab-text Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. 
+                //In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,
+        div.row.tab-text_row.column-2_content 
+            div.col-lg-6.tab-text_column.tab-text_column_left
+                p.tab-text 1
+            div.col-lg-6.tab-text_column.tab-text_column_right
+                p.tab-text 2
+        div.row.tab-text_row.column-3_content
+            div.col-lg-6.tab-text_column.tab-text_column_left
+                p.tab-text 3
+            div.col-lg-6.tab-text_column.tab-text_column_right
+                p.tab-text 4
+        div.section_header__block
+        span.section_header Popular Items
+    div.row.popular-items_row.bottom-padding-pdp
+        div.col-lg-3.popular-item.clp-item-background
+            img.item-image(src="images/clp-bg-15.png" alt="")
+            div.item-text_container
+                span.item-text Kristina Dam Oak Table With White Marble Top
+                span.price $ 799.55
+            div.popular-item_hover
+                button.plus.addToMinicart(title="add")
+                button.like.addToWishlist(title="like")
+        div.col-lg-3.popular-item.clp-item-background
+            img.item-image(src="images/pdp_popular_item_bg.png" alt="")
+            div.item-text_container
+                span.item-text Kristina Dam Oak Table With White Marble Top
+                span.price $ 2195.00
+            div.popular-item_hover
+                button.plus.addToMinicart(title="add")
+                button.like.addToWishlist(title="like")
+        div.col-lg-3.popular-item.home-item-background
+            img.item-image(src="images/home-4.png" alt="")
+            div.item-text_container
+                span.item-text Activate Facial Mask and Charcoal Soap 
+                span.price  $ 129.55
+            div.popular-item_hover
+                button.plus.addToMinicart(title="add")
+                button.like.addToWishlist(title="like")
+        div.col-lg-3.popular-item.home-item-background
+            img.item-image(src="images/pdp_popular_item_bg_4.png" alt="")
+            div.item-text_container
+                span.item-text Cocktail Table Walnut 
+                | &#x7c; YES
+                span.price  $ 629.99
+            div.popular-item_hover
+                button.plus.addToMinicart(title="add")
+                button.like.addToWishlist(title="like")
+    div.container.info_container
+        div.row.info_row
+            div.col-lg-4.info_column
+                i.info__icon.fas.fa-dolly
+                span.info__header Focus
+                span.info__text Our unwavering focus on superior service delivery and building next generation competencies
+            div.col-lg-4.info_column
+                i.info__icon.fas.fa-recycle
+                span.info__header method
+                span.info__text A standardized methodology designed to deliver measurable business results and predictable costs
+            div.col-lg-4.info_column
+                i.info__icon.fas.fa-clipboard-check
+                span.info__header Knowledge
+                span.info__text A highly skilled, proactive workforce that reliably improves each client’s ROI while mitigating their business risk

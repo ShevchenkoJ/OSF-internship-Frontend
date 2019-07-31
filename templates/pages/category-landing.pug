@@ -1,0 +1,263 @@
+div.page-background
+    div.container.category-landing_container
+        ul.breadcrumb.breadcrumb__list
+            li.breadcrumb__item
+                a.breadcrumb__link(href="./index.html") Home
+            li.breadcrumb__item
+                a.breadcrumb__link.last-breadcrumb__link Category Landing Services
+        div.horizontal-line
+            span.horizontal-line__text Services
+        span.hide-filter_button Hide filter
+        span.show-filter_button Show filter
+        div.row.filters-row.show-hide-filters
+            form.filters__form
+                div.col-lg-4 
+                    div.filter__item
+                        label.filter_label(for="price-select") 
+                            span.filter_label-text Price
+                            select.filter_select(id="price-select")
+                                option.filter_option(value="cheap") $0.00 — $100.00
+                                option.filter_option(value="market") $101.00 — $500.00
+                                option.filter_option(value="expensive") $501.00 — $1000.00
+                                option.filter_option(value="luxury") $1001.00 and over
+                    div.filter__item
+                        div.filter-color
+                            span.filter_label Color
+                            div.radio-buttons_group
+                                input.radio-button(type="radio" id="white" name="color" value="white" checked)
+                                label.radio-button_label.white-radio(for="white")
+                                input.radio-button(type="radio" id="light-blue" name="color" value="light-blue")
+                                label.radio-button_label.light-blue-radio(for="light-blue")
+                                input.radio-button(type="radio" id="black" name="color" value="black")
+                                label.radio-button_label.black-radio(for="black")
+                                input.radio-button(type="radio" id="green" name="color" value="green")
+                                label.radio-button_label.green-radio(for="green")
+                                input.radio-button(type="radio" id="blue" name="color" value="blue")
+                                label.radio-button_label.blue-radio(for="blue")
+                                input.radio-button(type="radio" id="orange" name="color" value="orange")
+                                label.radio-button_label.orange-radio(for="orange")
+                                input.radio-button(type="radio" id="red" name="color" value="red")
+                                label.radio-button_label.red-radio(for="red")
+                                input.radio-button(type="radio" id="light-pink" name="color" value="light-pink")
+                                label.radio-button_label.light-pink-radio(for="light-pink")
+                div.col-lg-4
+                    div.filter__item 
+                        label.filter_label(for="brand-select") 
+                            span.filter_label-text Brands
+                            select.filter_select(id="brand-select")
+                                option.filter_option(value="ukraine-sport") Ukraine sport
+                                option.filter_option(value="brand-2") Brand 2
+                                option.filter_option(value="brand-3") Brand 3
+                                option.filter_option(value="brand-4") Brand 4
+                    div.filter__item 
+                        label.filter_label(for="sort-by-select") 
+                            span.filter_label-text Sort by
+                            select.filter_select(id="sort-by-select")
+                                option.filter_option(value="sort-by-price") Price
+                                option.filter_option(value="sort-by-color") Color
+                                option.filter_option(value="sort-by-brand") Brand 
+                                option.filter_option(value="sort-by-size") Size
+                div.col-lg-4.text-align_right__column
+                    div.filter__item 
+                        label.filter_label(for="size-select") 
+                            span.filter_label-text Size
+                            select.filter_select(id="size-select")
+                                option.filter_option(value="small") Small
+                                option.filter_option(value="medium") Medium
+                                option.filter_option(value="large") Large
+                    div.filter__item 
+                        label.filter_label(for="items-per-page-select") 
+                            span.filter_label-text Show
+                            select.filter_select(id="items-per-page-select")
+                                option.filter_option(value="16-items-per-page") 16 per page
+                                option.filter_option(value="32-items-per-page") 32 per page
+                                option.filter_option(value="48-items-per-page") 48 per page
+                                option.filter_option(value="64-items-per-page") 64 per page
+        span.results_quantity 12,931 results in apparel
+        div.row.popular-items_row
+            div.col-lg-3.popular-item.clp-item-background
+                img.item-image(src="images/home-3.png" alt="")
+                div.item-text_container
+                    span.item-text Kristina Dam Oak Table With White Marble Top
+                    span.price  $ 799.55
+                div.popular-item_hover
+                    button.plus.addToMinicart(title="add")
+                    button.like.addToWishlist(title="like")
+            div.col-lg-3.popular-item.clp-item-background.hide-on-mobile
+                img.item-image(src="images/home-1.png" alt="")
+                div.item-text_container
+                    span.item-text EAMES x Cast + Crew - Custom Powder Coated 
+                    span.price  $ 799.55
+                div.popular-item_hover
+                    button.plus.addToMinicart(title="add")
+                    button.like.addToWishlist(title="like")
+            div.col-lg-3.popular-item.clp-item-background.hide-on-mobile
+                img.item-image(src="images/clp-bg-3.png" alt="")
+                div.item-text_container
+                    span.item-text Activate Facial Mask and Charcoal Soap 
+                    span.price  $ 129.55
+                div.popular-item_hover
+                    button.plus.addToMinicart(title="add")
+                    button.like.addToWishlist(title="like")
+            div.col-lg-3.popular-item.clp-item-background.hide-on-mobile
+                img.item-image(src="images/clp-bg-4.png" alt="")
+                div.item-text_container
+                    span.item-text Vitra Cork Stool B, Cork - Design Within Reach 
+                    span.price  $ 299.99
+                div.popular-item_hover
+                    button.plus.addToMinicart(title="add")
+                    button.like.addToWishlist(title="like")
+            div.col-lg-3.popular-item.clp-item-background
+                img.item-image(src="images/home-6.png" alt="")
+                div.item-text_container
+                    span.item-text Hay - About A Lounge Chair AAL 93 
+                    span.price  $ 659.55
+                div.popular-item_hover
+                    button.plus.addToMinicart(title="add")
+                    button.like.addToWishlist(title="like")
+            div.col-lg-3.popular-item.clp-item-background.hide-on-mobile
+                img.item-image(src="images/home-5.png" alt="")
+                div.item-text_container
+                    span.item-text TORY DESK CALENDAR
+                    span.price  $ 410.99
+                div.popular-item_hover
+                    button.plus.addToMinicart(title="add")
+                    button.like.addToWishlist(title="like")
+            div.col-lg-3.popular-item.clp-item-background.hide-on-mobile
+                img.item-image(src="" alt="")
+                div.item-text_container
+                    span.item-text CH445 Wing Chair on SUITE NY 
+                    span.price  $ 330.55
+                div.popular-item_hover
+                    button.plus.addToMinicart(title="add")
+                    button.like.addToWishlist(title="like")
+            div.col-lg-3.popular-item.clp-item-background.hide-on-mobile
+                img.item-image(src="" alt="")
+                div.item-text_container
+                    span.item-text CH445 Wing Chair on SUITE NY 
+                    span.price  $ 330.55
+                div.popular-item_hover
+                    button.plus.addToMinicart(title="add")
+                    button.like.addToWishlist(title="like")
+            div.col-lg-3.popular-item.clp-item-background
+                img.item-image(src="" alt="")
+                div.item-text_container
+                    span.item-text Kristina Dam Oak Table With White Marble Top 
+                    span.price  $ 2195.00
+                div.popular-item_hover
+                    button.plus.addToMinicart(title="add")
+                    button.like.addToWishlist(title="like")
+            div.col-lg-3.popular-item.clp-item-background.hide-on-mobile
+                img.item-image(src="" alt="")
+                div.item-text_container
+                    span.item-text MONOQI | Ø55 Crossit Table - Wht/Grn 
+                    span.price  $ 299.99
+                div.popular-item_hover
+                    button.plus.addToMinicart(title="add")
+                    button.like.addToWishlist(title="like")
+            div.col-lg-3.popular-item.clp-item-background.hide-on-mobile
+                img.item-image(src="images/home-6.png" alt="")
+                div.item-text_container
+                    span.item-text Vitra Cork Stool B, Cork - Design Within Reach 
+                    span.price  $ 870.95
+                div.popular-item_hover
+                    button.plus.addToMinicart(title="add")
+                    button.like.addToWishlist(title="like")
+            div.col-lg-3.popular-item.clp-item-background.hide-on-mobile
+                img.item-image(src="" alt="")
+                div.item-text_container
+                    span.item-text Activate Facial Mask and Charcoal Soap  
+                    span.price  $ 129.55
+                div.popular-item_hover
+                    button.plus.addToMinicart(title="add")
+                    button.like.addToWishlist(title="like")
+            div.col-lg-3.popular-item.clp-item-background
+                img.item-image(src="" alt="")
+                div.item-text_container
+                    span.item-text Hay - About A Lounge Chair AAL 93 
+                    span.price  $ 659.55
+                div.popular-item_hover
+                    button.plus.addToMinicart(title="add")
+                    button.like.addToWishlist(title="like")
+            div.col-lg-3.popular-item.clp-item-background.hide-on-mobile
+                img.item-image(src="images/home-7.png" alt="")
+                div.item-text_container
+                    span.item-text TORY DESK CALENDAR 
+                    span.price  $ 410.99
+                div.popular-item_hover
+                    button.plus.addToMinicart(title="add")
+                    button.like.addToWishlist(title="like")
+            div.col-lg-3.popular-item.clp-item-background.hide-on-mobile
+                img.item-image(src="images/clp-bg-15.png" alt="")
+                div.item-text_container
+                    span.item-text EAMES x Cast + Crew - Custom Powder Coated  
+                    span.price  $ 330.55
+                div.popular-item_hover
+                    button.plus.addToMinicart(title="add")
+                    button.like.addToWishlist(title="like")
+            div.col-lg-3.popular-item.clp-item-background.hide-on-mobile
+                img.item-image(src="" alt="")
+                div.item-text_container
+                    span.item-text CH445 Wing Chair on SUITE NY 
+                    span.price  $ 330.55
+                div.popular-item_hover
+                    button.plus.addToMinicart(title="add")
+                    button.like.addToWishlist(title="like")
+    button.load-more-button_clp(id="load-more" title="load-more") 
+        span.load-more_text_clp LOAD MORE
+    div.container.featured-products.featured-products-padding
+        span.featured-products_header Featured Products
+        span.featured-products_text Unde omnis iste natus error sit voluptatem
+        div.horizontal-line
+            span.horizontal-line__text ///
+            div.nav-symbol_prev(type="button" role="presentation") <
+            div.nav-symbol_next >
+        div.row.owl-carousel.owl-theme.featured-products_row
+            div.col-lg-3.item.featured-products_slide.item-background-9
+                div.item-text_container
+                    span.item-text Kristina Dam Oak Table With White Marble
+                    span.feature  Awesome
+            div.col-lg-3.item.featured-products_slide.item-background-10
+                div.item-text_container
+                    span.item-text Kristina Dam Oak Table With White Marble
+                    span.feature  Marketing
+            div.col-lg-3.item.featured-products_slide.item-background-11
+                div.item-text_container
+                    span.item-text Kristina Dam Oak Table With White Marble
+                    span.feature  Awesome
+            div.col-lg-3.item.featured-products_slide.item-background-12
+                div.item-text_container
+                    span.item-text Hezy Theme
+                    span.feature  Marketing
+            div.col-lg-3.item.featured-products_slide.item-background-13
+                div.item-text_container
+                    span.item-text Extra Slide 1
+                    span.feature  Marketing
+            div.col-lg-3.item.featured-products_slide.item-background-14
+                div.item-text_container
+                    span.item-text Extra Slide 2
+                    span.feature  Marketing
+            div.col-lg-3.item.featured-products_slide.item-background-15
+                div.item-text_container
+                    span.item-text Extra Slide 3
+                    span.feature  Marketing
+            div.col-lg-3.item.featured-products_slide.item-background-16
+                div.item-text_container
+                    span.item-text Extra Slide 4
+                    span.feature  Marketing
+            div.col-lg-3.item.featured-products_slide.item-background-9
+                div.item-text_container
+                    span.item-text Extra Slide 12
+                    span.feature  Marketing
+            div.col-lg-3.item.featured-products_slide.item-background-10
+                div.item-text_container
+                    span.item-text Extra Slide 22
+                    span.feature  Marketing
+            div.col-lg-3.item.featured-products_slide.item-background-11
+                div.item-text_container
+                    span.item-text Extra Slide 32
+                    span.feature  Marketing
+            div.col-lg-3.item.featured-products_slide.item-background-12
+                div.item-text_container
+                    span.item-text Extra Slide 42
+                    span.feature  Marketing
