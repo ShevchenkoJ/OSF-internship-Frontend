@@ -1,5 +1,8 @@
 function selectricCall() {
-    $('select').selectric();
+    $('select').selectric({
+      disableOnMobile: false,
+      nativeOnMobile: false
+    });
 
     $('#color-select').selectric({
         optionsItemBuilder: function(itemData, element, index) {
