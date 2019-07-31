@@ -202,7 +202,7 @@ function addToMinicart() {
 			localStorage.setItem('minicart', total_quantity)
 			$('#minicart .account-nav__counter').text(total_quantity);
 		} else {
-			alert('Sorry but you can have in one time only 20 products. Please change you quantity.');
+			alert('Sorry but you can purchase up to 20 products per order.');
 		}
 	});
 
