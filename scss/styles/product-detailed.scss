@@ -42,6 +42,13 @@
         text-transform: uppercase;
         margin-top: 48px;
         margin-bottom: 10px;
+        /*@media only screen and (max-width: 1280px) {
+        padding: 0;
+        }*/
+
+        @media only screen and (max-width: 768px) {
+            font-size: 20px;
+        }
     }
     .footer-social-media,
     .footer-social-media_container {
@@ -134,11 +141,15 @@
     /*@media only screen and (max-width: 1280px) {
     padding: 0;
     }*/
-    .owl-item {
-        height: 100px;
-    }
+    
     @media only screen and (max-width: 768px) {
         display: inline-block;
+    }
+}
+
+.mobile-gallery-thumbnails {
+    .owl-item {
+        height: 100px;
     }
 }
 
