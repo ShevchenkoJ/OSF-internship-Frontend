@@ -42,6 +42,13 @@
         text-transform: uppercase;
         margin-top: 48px;
         margin-bottom: 10px;
+        /*@media only screen and (max-width: 1280px) {
+        padding: 0;
+        }*/
+
+        @media only screen and (max-width: 768px) {
+            font-size: 20px;
+        }
     }
     .footer-social-media,
     .footer-social-media_container {
@@ -66,6 +73,10 @@
 
         @media only screen and (max-width: 768px) {
             display: inline-block;
+
+            .owl-dot.active span {
+                display: none !important;
+            }
         }
 }
 
@@ -626,6 +637,24 @@
     line-height: 24px;
 }
 
+.to-top__link {
+    @extend .add-to-cart-button;
+
+    position: relative;
+    left: 0;
+    background: #84bc22;
+    margin-bottom: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: none;
+
+    @media only screen and (max-width: 768px) {
+        display: inline-block;
+    }
+}
 
 
 
