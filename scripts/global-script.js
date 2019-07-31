@@ -236,7 +236,34 @@ function addToWishlist() {
 
 };
 
+function globalHeaderInit() {
+	$('.dropped_item').click(function(e){
+		e.preventDefault();
+
+		if($(this).hasClass('open_dropped_item')) {
+			$(this).next('ul').hide();
+			$(this).removeClass('open_dropped_item');
+		} else {
+			$(this).next('ul').show();
+			$(this).addClass('open_dropped_item');
+		}
+	});
+
+	$('.burger_icon_open').click(function(){
+		$('.drop_down_mobile').show();
+		$('.burger_icon_close').show();
+		$(this).hide();
+	})
+
+	$('.burger_icon_close').click(function(){
+		$('.drop_down_mobile').hide();
+		$('.burger_icon_open').show();
+		$(this).hide();
+	})
+}
+
 function widgetInit(){
+	globalHeaderInit();
 	addToMinicart();
 	addToWishlist();
 	cookiesInit();

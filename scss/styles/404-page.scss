@@ -97,10 +97,6 @@ $form-border: #e8e2d6;
     border-radius: 5px;
 }
 
-.not-found_text-block {
-    text-align: left;
-}
-
 .header_h3 {
     font-family: 'Lato-ExtraBold';
     font-size: 24px;
@@ -169,4 +165,27 @@ $form-border: #e8e2d6;
     font-size: 16px;
 }
 
+@media only screen and (max-width: 1200px) {
+    .not-found_text-block {
+        padding: 0 40px;
+    }
+    
+    .slogan__text {
+        font-size: 40px;
 
+        &:before {
+            background-size: contain;
+        }
+    }
+
+    .slogan_block {
+        padding: 50px 40px 0;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    .not-found_content {
+        margin: 0;
+    }
+}

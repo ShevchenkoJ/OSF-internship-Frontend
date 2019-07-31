@@ -9,6 +9,12 @@ function ajaxCall(url_path, page) {
 	function loadPopularItems() {
 		if (popularItemsArray){
 			drowEachRow(popularItemsArray);
+			$('.home_container .popular-items_row').owlCarousel('destroy'); 
+			$('.home_container .popular-items_row').owlCarousel({
+				items: 1,
+				dots:true,
+				nav:false,
+			});
 		} else {
 			$.ajax({
 				type: "GET",
@@ -17,6 +23,12 @@ function ajaxCall(url_path, page) {
 				success: function(result) {
 					popularItemsArray = result;
 					drowEachRow(popularItemsArray);
+					$('.home_container .popular-items_row').owlCarousel('destroy'); 
+					$('.home_container .popular-items_row').owlCarousel({
+						items: 1,
+						dots:true,
+						nav:false,
+					});
 				},
 				error: function() {
 					drowEachRow(false);

@@ -1,6 +1,6 @@
-div.page-background.product-detailed
+div.page-background
     div.container.product-detailed_container
-        ul.breadcrumb.breadcrumb__list(id="pdp-top")
+        ul.breadcrumb.breadcrumb__list
             li.breadcrumb__item
                 a.breadcrumb__link(href="./index.html") Home
             li.breadcrumb__item
@@ -14,7 +14,7 @@ div.page-background.product-detailed
                 div.easyzoom.easyzoom--overlay.easyzoom--with-thumbnails.gallery_wrapper
                     a.gallery_link(href="images/zoom/shp/black-zoom-face.jpg")
                         img.gallery_image(src="images/zoom/shp/black-standard-face.jpg" alt="")
-                ul.thumbnails.gallery-previews_wrapper.desktop-gallery-thumbnails
+                ul.thumbnails.gallery-previews_wrapper
                     li.gallery-preview_item
                         a.gallery-preview_link(href="images/zoom/shp/black-zoom-face.jpg" data-standard="images/zoom/shp/black-standard-face.jpg")
                             img.gallery-preview_image.active_thumb(src="images/zoom/shp/black-small-face.jpg" alt="")
@@ -26,20 +26,7 @@ div.page-background.product-detailed
                             img.gallery-preview_image(src="images/zoom/shp/blue-small-face.jpg" alt="")
                     li.gallery-preview_item
                         a.gallery-preview_link(href="images/zoom/shp/blue-zoom-back.jpg" data-standard="images/zoom/shp/blue-standard-back.jpg")
-                            img.gallery-preview_image(src="images/zoom/shp/blue-small-back.jpg" alt="")
-                ul.thumbnails.gallery-previews_wrapper.mobile-gallery-thumbnails.owl-carousel
-                    li.gallery-preview_item.item
-                        a.gallery-preview_link(href="images/zoom/shp/black-zoom-face.jpg" data-standard="images/zoom/shp/black-standard-face.jpg")
-                            img.gallery-preview_image.active_thumb(src="images/zoom/shp/black-small-face.jpg" alt="")
-                    li.gallery-preview_item.item
-                        a.gallery-preview_link(href="images/zoom/shp/black-zoom-back.jpg" data-standard="images/zoom/shp/black-standard-back.jpg")
-                            img.gallery-preview_image(src="images/zoom/shp/black-small-back.jpg" alt="")
-                    li.gallery-preview_item.item
-                        a.gallery-preview_link(href="images/zoom/shp/blue-zoom-face.jpg" data-standard="images/zoom/shp/blue-standard-face.jpg")
-                            img.gallery-preview_image(src="images/zoom/shp/blue-small-face.jpg" alt="")
-                    li.gallery-preview_item.item
-                        a.gallery-preview_link(href="images/zoom/shp/blue-zoom-back.jpg" data-standard="images/zoom/shp/blue-standard-back.jpg")
-                            img.gallery-preview_image(src="images/zoom/shp/blue-small-back.jpg" alt="")            
+                            img.gallery-preview_image(src="images/zoom/shp/blue-small-back.jpg" alt="")          
             div.col-lg-5.product-details_wrapper
                 form.item-features_form
                     span.price_header $299.99
@@ -49,7 +36,7 @@ div.page-background.product-detailed
                                 option.filter_option(value="grey" data-color="#716c68")
                                     span.color-1 
                                     span Dark Gray
-                                option.filter_option(value="blue" data-color="#cceae1")
+                                option.filter_option(value="blue" data-color="blue")
                                     span.color-2 
                                     span Light Blue
                     div.buttons_container
@@ -105,7 +92,7 @@ div.page-background.product-detailed
                 p.tab-text 4
         div.section_header__block
         span.section_header Popular Items
-    div.row.popular-items_row.bottom-padding-pdp.pdp-popular-items_desktop
+    div.row.popular-items_row.bottom-padding-pdp
         div.col-lg-3.popular-item.clp-item-background
             img.item-image(src="images/clp-bg-15.png" alt="")
             div.item-text_container
@@ -139,46 +126,6 @@ div.page-background.product-detailed
             div.popular-item_hover
                 button.plus.addToMinicart(title="add")
                 button.like.addToWishlist(title="like")
-    div.row.popular-items_row.bottom-padding-pdp.pdp-popular-items_mobile.owl-carousel
-        div.col-lg-3.popular-item.clp-item-background.item
-            img.item-image(src="images/clp-bg-15.png" alt="")
-            div.item-text_container
-                span.item-text Kristina Dam Oak Table With White Marble Top
-                span.price $ 799.55
-            div.popular-item_hover
-                button.plus.addToMinicart(title="add")
-                button.like.addToWishlist(title="like")
-        div.col-lg-3.popular-item.clp-item-background.item
-            img.item-image(src="images/pdp_popular_item_bg.png" alt="")
-            div.item-text_container
-                span.item-text Kristina Dam Oak Table With White Marble Top
-                span.price $ 2195.00
-            div.popular-item_hover
-                button.plus.addToMinicart(title="add")
-                button.like.addToWishlist(title="like")
-        div.col-lg-3.popular-item.home-item-background.item
-            img.item-image(src="images/home-4.png" alt="")
-            div.item-text_container
-                span.item-text Activate Facial Mask and Charcoal Soap 
-                span.price  $ 129.55
-            div.popular-item_hover
-                button.plus.addToMinicart(title="add")
-                button.like.addToWishlist(title="like")
-        div.col-lg-3.popular-item.home-item-background.item
-            img.item-image(src="images/pdp_popular_item_bg_4.png" alt="")
-            div.item-text_container
-                span.item-text Cocktail Table Walnut 
-                | &#x7c; YES
-                span.price  $ 629.99
-            div.popular-item_hover
-                button.plus.addToMinicart(title="add")
-                button.like.addToWishlist(title="like")
-    span.to-top__button_container-mobile
-        a.to-top__link(href="#pdp-top") scroll to top
-
-    
-    
-    
     div.container.info_container
         div.row.info_row
             div.col-lg-4.info_column

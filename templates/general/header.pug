@@ -6,6 +6,11 @@ include ../pages/pop-ups.pug
 
 div.header
     div.page-container.container
+        div.burger_icon 
+            span.burger_icon_open.burger_icon_item
+                img(src="./images/menu/menu.png", alt="")
+            span.burger_icon_close.burger_icon_item
+                img(src="./images/menu/close.png", alt="")
         a.logo-group(href="./index.html")
                 img.logo-pic(src="../OSF-internship-Frontend/images/OSF-logo.png")
                 span.logo-text--up o s f
@@ -95,6 +100,57 @@ div.header
                         +drop-down_items('Food','./404-page.html')
                 div.col-lg-3
                     img.drop-down__img(src="images/drop-down-img.png" alt="")
+    div.drop_down_mobile
+        ul.drop_down_mobile_category_list
+            li.drop_down_mobile_category_list_item
+                a.drop_down_mobile_category_list_item_titem.dropped_item(href="./404-page.htm") Service
+                
+                ul.drop_down_mobile_sub_category_list
+                    li.drop_down_mobile_sub_category_item
+                        a.drop_down_mobile_sub_category_item_title.dropped_item(href="./404-page.htm") PRODUCT CATEGORIES
+                        ul.drop_down_mobile_sub_category_item_list.multi-cols
+                            +drop-down_items('Accessories','./404-page.html')
+                            +drop-down_items('Alcohol','./404-page.html')
+                            +drop-down_items('Art','./404-page.html')
+                            +drop-down_items('Books','./404-page.html')
+                            +drop-down_items('Drink','./404-page.html')
+                            +drop-down_items('Electronics','./404-page.html')
+                            +drop-down_items('Flowers & Plants','./404-page.html')
+                            +drop-down_items('Food','./404-page.html')
+                            +drop-down_items('Gadgets','./404-page.html')
+                            +drop-down_items('Garden','./404-page.html')
+                            +drop-down_items('Grocery','./404-page.html')
+                            +drop-down_items('Home','./404-page.html')
+                            +drop-down_items('Jewelry','./404-page.html')
+                            +drop-down_items('Kids & Baby','./404-page.html')
+                            +drop-down_items("Men's Fashion",'./404-page.html')
+                            +drop-down_items('Mobile','./404-page.html')
+                            +drop-down_items('Motorcycles','./404-page.html')
+                            +drop-down_items('Movies','./404-page.html')
+                            +drop-down_items('Music','./404-page.html')
+                            +drop-down_items('Office','./404-page.html')
+                            +drop-down_items('Pets','./404-page.html')
+                            +drop-down_items('Romantic','./404-page.html')
+                            +drop-down_items('Sport','./404-page.html')
+                            +drop-down_items('Toys','./404-page.html')
+                    li.drop_down_mobile_sub_category_item
+                        a.drop_down_mobile_sub_category_item_title.dropped_item(href="./404-page.htm") SALE
+                        ul.drop_down_mobile_sub_category_item_list    
+                            +drop-down_items('Accessories','./404-page.html')
+                            +drop-down_items('Alcohol','./404-page.html')
+                            +drop-down_items('Art','./404-page.html')
+                            +drop-down_items('Books','./404-page.html')
+                            +drop-down_items('Drink','./404-page.html')
+                            +drop-down_items('Electronics','./404-page.html')
+                            +drop-down_items('Flowers & Plants','./404-page.html')
+                            +drop-down_items('Food','./404-page.html')
+                    img.drop-down__img(src="images/drop-down-img.png" alt="")            
+            li.drop_down_mobile_category_list_item
+                a.drop_down_mobile_category_list_item_titem(href="./404-page.htm") Company
+            li.drop_down_mobile_category_list_item
+                a.drop_down_mobile_category_list_item_titem(href="./404-page.htm") Library
+            li.drop_down_mobile_category_list_item
+                a.drop_down_mobile_category_list_item_titem(href="./404-page.htm") Contact us
     
 
 

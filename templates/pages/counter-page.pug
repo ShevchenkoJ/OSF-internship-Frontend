@@ -3,23 +3,28 @@ div.page-background
         div.counter_header We Will Release OSF Academy
         div.counter_text We are working hard and estimated release time products below. Sed ac tristique nunc, ut gravida nunc. Nulla consequat erat non lectus imperdiet.
         div.counter_wrapper
-            div.counter_item 
+            div.counter_item.counter_item_month
                 div.counter_chart
+                canvas#month_timer(width="110" hegiht="110")
                 div.counter_digits 00
                 span.counter_name Months
-            div.counter_item 
+            div.counter_item.counter_item_days
                 div.counter_chart
+                canvas#days_timer(width="110" hegiht="110")
                 div.counter_digits 00
                 span.counter_name Days
-            div.counter_item 
+            div.counter_item.counter_item_hours
                 div.counter_chart
+                canvas#hours_timer(width="110" hegiht="110")
                 div.counter_digits 00
                 span.counter_name Hours
-            div.counter_item 
+            div.counter_item.counter_item_minutes
                 div.counter_chart
+                canvas#minutes_timer(width="110" hegiht="110")
                 div.counter_digits 00
                 span.counter_name Minutes
-            div.counter_item 
+            div.counter_item.counter_item_seconds
                 div.counter_chart
+                canvas#second_timer(width="110" hegiht="110")
                 div.counter_digits 00
                 span.counter_name Seconds
