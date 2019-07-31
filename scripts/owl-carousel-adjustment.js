@@ -26,7 +26,13 @@ var currentPage = 0;
         items: 3,
         dots:true,
         nav:false,
-    });
+	});
+	
+	$('.pdp-popular-items_mobile').owlCarousel({
+        items: 1,
+        dots:true,
+        nav:false,
+	});
 
 	$('.nav-symbol_prev').click(function() {
 		currentPage-=1;
