@@ -117,6 +117,14 @@
     }
 }
 
+.product-detailed {
+    .mobile-gallery-thumbnails {
+        .owl-stage-outer {
+            height: 100px;
+        }
+    }
+}
+
 .gallery_row {
     background-color: $white;
     border-top-left-radius: 7px;
