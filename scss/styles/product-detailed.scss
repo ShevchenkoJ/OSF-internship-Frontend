@@ -125,6 +125,15 @@
     }
 }
 
+.span_color_icon {
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 10px;
+    top: 4px;
+    position: relative;
+}
 .gallery_row {
     background-color: $white;
     border-top-left-radius: 7px;
