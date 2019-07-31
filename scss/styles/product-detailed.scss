@@ -134,7 +134,9 @@
     /*@media only screen and (max-width: 1280px) {
     padding: 0;
     }*/
-
+    .owl-item {
+        height: 100px;
+    }
     @media only screen and (max-width: 768px) {
         display: inline-block;
     }
