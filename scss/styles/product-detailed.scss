@@ -69,6 +69,28 @@
     padding: 0 0 42px 0;    
 }
 
+.pdp-popular-items_mobile {
+    display: none;
+        /*@media only screen and (max-width: 1280px) {
+        padding: 0;
+        }*/
+
+        @media only screen and (max-width: 768px) {
+            display: inline-block;
+        }
+}
+
+.pdp-popular-items_desktop {
+    
+    /*@media only screen and (max-width: 1280px) {
+    padding: 0;
+    }*/
+
+    @media only screen and (max-width: 768px) {
+        display: none;
+    }
+}
+
 .gallery_row {
     background-color: $white;
     border-top-left-radius: 7px;
