@@ -10,7 +10,6 @@ function scriptsInitialization() {
     widgetInit();
     easyzoomAdjustments();
     selectricInit();
-    timreInit();
 };
 
 $(document).ready(function(){ 
